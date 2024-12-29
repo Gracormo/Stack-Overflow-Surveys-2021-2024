@@ -49,7 +49,7 @@ Programming Language Recommendations:
 A Random Forest Classifier achieved an accuracy of 27.38%, performing well for dominant languages but struggling with less frequent ones.
 The complete findings and detailed analysis are available in the Jupyter Notebooks.
 
-The results can be found at the post available [here](https://medium.com/p/7a3dff8d7e2c/edit).
+The results can be found at the post available [here](https://medium.com/@gracorabello/insights-from-stack-overflow-surveys-2021-2024-7a3dff8d7e2c).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 Licensing: Credit to Stack Overflow for the survey data. The data's licensing and additional details can be found [here](https://survey.stackoverflow.co/).
