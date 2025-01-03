@@ -1,19 +1,19 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def desc (df, qname):
+def get_questions_by_name (df, qname):
     """
-    This function retrieves a list of questions from a DataFrame based on a specific question name.
+    This function retrieves the full question from a DataFrame based on a specific question name.
     Parameters:
         - df: The DataFrame containing the data.
         - qname: The value in the 'qname' column to filter by.
     Returns:
-        - A list of questions where the 'qname' column matches the specified qname value.
+        - The full questions where the 'qname' column matches the specified qname value.
     """
     
     return list(df.loc[df['qname'] == qname, 'question'])
 
-def count_unique_values(df, col):
+def calculate_unique_value_percentages(df, col):
     """
     Calculate the percentage distribution of unique values in a specified column of a DataFrame.
 
@@ -44,5 +44,3 @@ def count_unique_values(df, col):
     result = pd.DataFrame(data_counts)
 
     return result
-
-
